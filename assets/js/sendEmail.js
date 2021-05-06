@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail","rosie", {
+    emailjs.send("outlook","rosie", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.projectsummary.value
